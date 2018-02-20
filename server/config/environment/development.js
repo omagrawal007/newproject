@@ -7,7 +7,7 @@ module.exports = {
   // MongoDB connection options
   mongo: {
     // uri: 'mongodb://localhost:27017/timesheet',
-    uri: 'mongodb://om.agrawal9415@gmail.com:omagrawal007@ds143738.mlab.com:43738/timesheet1231',
+    uri: 'mongodb://test:test@ds143738.mlab.com:43738/timesheet1231',
   },
   email:{
     host    : 'mail.vstglobal.com',
