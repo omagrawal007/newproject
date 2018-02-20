@@ -19,6 +19,6 @@ module.exports = {
     uri:    process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/social'
+            'mongodb://test:test@ds143738.mlab.com:43738/timesheet1231'
   }
 };
